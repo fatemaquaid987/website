@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#hello {
+  background-color: #DD0000;
+}
+h1, p {
+  text-align: center;
+  background-color: #DDE0E3;    /* Light gray */
+}
+p {
+   padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+   margin-bottom: 50px;          /* Add this */
+}
+#into {
+
+  font-style: italic;
+}
+h1 {
+  padding: 50px;
+  border-bottom: 1px solid #5D6063;
+}
+
+body {
+  background-color: #000000;
+  text-align: left;
+}
+.button{             /* Change this */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+}
+.b1:link,                 /* Change this */
+.b1:visited {             /* Change this */
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+}
+.b1:hover,
+.b1:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+.b1:active,
+.b1:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+.b2:link,                 /* Change this */
+.b2:visited {             /* Change this */
+  color: #FFF;
+  background-color: #f54290;    /* Blue */
+}
+.b2:hover,
+.b2:visited:hover {
+  color: #FFF;
+  background-color: #f589b8;  /* Light blue */
+}
+.b2:active,
+.b2:visited:active {
+  color: #FFF;
+  background-color: #f54290;  /* Blue */
+}
+.b3:link,                 /* Change this */
+.b3:visited {             /* Change this */
+  color: #FFF;
+  background-color: #2db593;    /* Blue */
+}
+.b3:hover,
+.b3:visited:hover {
+  color: #FFF;
+  background-color: #96ebd5;  /* Light blue */
+}
+.b3:active,
+.b3:visited:active {
+  color: #FFF;
+  background-color: #2db593;  /* Blue */
+}
+.b4:link,                 /* Change this */
+.b4:visited {             /* Change this */
+  color: #FFF;
+  background-color: #e0cd3a;    /* Blue */
+}
+.b4:hover,
+.b4:visited:hover {
+  color: #FFF;
+  background-color:#f0e48b;  /* Light blue */
+}
+.b4:active,
+.b4:visited:active {
+  color: #FFF;
+  background-color: #e0cd3a;  /* Blue */
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
