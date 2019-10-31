@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+
+}
+h1, p {
+  text-align: center;
+  background-color: #DDE0E3;    /* Light gray */
+}
+p {
+   padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+   margin-bottom: 50px;          /* Add this */
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #033450;
+}
+
+.image_sec{
+  width : 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#horse{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#mother{
+  width:70%;
+  margin: auto;
+}
+
+#hair{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#saveearth{
+  width: 70%;
+  margin: 0 auto;
+}
+
+#wedding{
+  width: 70%;
+  margin: 0 auto;
+}
