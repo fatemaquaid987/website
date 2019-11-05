@@ -5,27 +5,53 @@
 }
 body {
   background-color: #000000;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 
 }
 h1, p {
   text-align: center;
-  background-color: #DDE0E3;    /* Light gray */
+  color: #FFF;
 }
 p {
    padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
-   margin-bottom: 50px;          /* Add this */
+   margin-top: 20px;
+}
+h1 {
+  padding: 50px;
+  text-shadow: 8px 8px 8px black;
+  font-size: 30px;
+  /*border-bottom: 1px solid #5D6063;*/
 }
 .page {
-  width: 600px;
+
   margin: 0 auto;
   text-align: center;
-  background-color: #033450;
+  /*background-color: #000000;*/
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .image_sec{
-  width : 60%;
-  margin: 20px auto;
+  padding-top: 20px;
   text-align: center;
+  margin: 0 auto;
+  background-color: #f2cfa5;
+  box-shadow: 5px 10px 25px #000000;
+  border: 2px solid #4f2a1e;
+  color: #4f2a1e;
+}
+.content{
+  background-color: #f2cfa5;
+  box-shadow: 5px 10px 25px #000000;
+  margin-bottom: 40px;
+  margin-top: 1px;
+}
+.header{
+  background-color: #4f2a1e;
+  box-shadow: 0 10px 25px #000000;
 }
 
 #horse{
@@ -51,4 +77,91 @@ p {
 #wedding{
   width: 70%;
   margin: 0 auto;
+}
+#codher{
+  width: 70%;
+  margin: 0 auto;
+}
+#crappybirds{
+  width: 70%;
+  margin: 0 auto;
+}
+#autocapture{
+  width: 70%;
+  margin: 0 auto;
+}
+#music{
+  width: 70%;
+  margin: 0 auto;
+}
+.button{             /* Change this */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid #4f2a1e;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px auto;
+  text-shadow: 2px 2px 2px black;
+}
+.b1:link,                 /* Change this */
+.b1:visited {             /* Change this */
+  color: #FFF;
+  background-color: #634136;    /* Blue */
+}
+.b1:hover,
+.b1:visited:hover {
+  color: #FFF;
+  background-color: #996e60;  /* Light blue */
+}
+.b1:active,
+.b1:visited:active {
+  color: #FFF;
+  background-color: #634136;  /* Blue */
+}
+#arts{
+  background-image: url('artback.jpg');
+}
+#tech{
+  background-image: url('../technical/techback.jpg');
+}
+#digital{
+  background-image: url('../digital/digback.jpg');
+}
+#misc{
+  background-image: url('../misc/musicback.jpg');
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+  .image_sec{
+    width: 50%
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .image_sec{
+    width: 50%
+
+  }
 }
