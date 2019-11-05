@@ -128,22 +128,25 @@ body {
   margin-top: 1px;
 }
 .header{
-  background-color: #4f2a1e;
+  background-color: #73442e;
   box-shadow: 0 10px 25px #000000;
+  position:relative;
+  z-index:2;
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  /*body {
-    background-color: #F09A9D;
-  }*/
+  .button{
+    font-size: 13px;
+  }
+  .h1{
+    font-size: 15px;
+  }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  /*body {
-    background-color: #F5CF8E;
-  }*/
+
   .b1, .b2, .b3, .b4{
     width: 30%
   }
@@ -154,9 +157,6 @@ body {
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  /*body {
-    background-color: #B2D6FF;
-  }*/
 
   .page {
     width: 960px;
