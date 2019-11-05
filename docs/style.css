@@ -147,6 +147,9 @@ body {
   .b1, .b2, .b3, .b4{
     width: 30%
   }
+  .button{
+    font-size: 15px;
+  }
 }
 
 /* Desktop Styles */
@@ -154,6 +157,7 @@ body {
   /*body {
     background-color: #B2D6FF;
   }*/
+
   .page {
     width: 960px;
     margin: 0 auto;
