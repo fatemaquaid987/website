@@ -2,32 +2,65 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
-    <title>Fatema's Creations</title>
+    <title>Fatema Quaid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='style.css'/>
     <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   </head>
   <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href='arts/arts.html'>Artsy Adventures</a>
+      <a href='technical/tech.html'>Techno Therapy</a>
+      <a href='digital/digital.html'>Digital Dreams</a>
+      <a href='misc/misc.html'>Miscellaneous Memos</a>
+      <a href ='about.html'>About </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
     <div class='header'>
-       <h1>Fatema.Creations()</h1>
+       <h1>Fatema Quaid</h1>
     </div>
     <div class= 'page'>
 
     <div class='content'>
-    <p id = 'intro'> Welcome to Fatema.Creations(). Fatema is a student pursuing her computer science degree at the University
-    of Pittsburgh. She is currently in her final year. This website aims at displaying her amazing creations,
-    created througout her academic journey. This website includes her eye catching arstsy pieces, technical projects,
+    <p id = 'intro'> Welcome to Fatema's creative world.This website aims at displaying her amazing creations,
+    which she created througout her academic journey. This website includes her eye catching arstsy pieces, technical projects,
     digital innovations as well as other interesting stuff. </p>
     <br/>
-
-    <!-- <div style='padding-top: 1px'></div> -->
     <p id = 'hello'> Choose any of the four areas below and feast your eyes with the innovative contributions
     Fatema has made in that area.</p>
     </div>
-    <a class='button b1' href = 'arts/arts.html'>Artsy Adventures</a>
-    <a class='button b2' href = 'technical/tech.html'>Techno Therapy</a>
-    <a class='button b3' href = 'digital/digital.html'>Digital Dream</a>
-    <a class='button b4' href = 'misc/misc.html'>Miscellaneous Memos</a>
+    <div class = 'btns'>
+    <a class='button b1' href = 'arts/arts.html'></a>
+    <p> Artsy Adventures </p>
     </div>
+    <div class = 'btns'>
+    <a class='button b2' href = 'technical/tech.html'></a>
+    <p> Techno Therapy </p>
+    </div>
+    <div class = 'btns'>
+    <a class='button b3' href = 'digital/digital.html'></a>
+    <p> Digital Dreams </p>
+    </div>
+    <div class = 'btns'>
+    <a class='button b4' href = 'misc/misc.html'></a>
+    <p> Miscellaneous Memos </p>
+    </div>
+    </div>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>

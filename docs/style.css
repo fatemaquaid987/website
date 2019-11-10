@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #hello {
-  background-color: #634136;
   color:#FFF;
   margin-bottom: 0;
   font-style: italic;
@@ -14,105 +14,89 @@ h1, p {
   color: #5D6063;
 }
 p {
-   padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
-   /*margin-bottom: 10px;*/
-   margin-top: 20px;
+   padding: 20px 0 0 10px;  /* Top  Right  Bottom  Left */
+   color: #472f2c;
 }
 #intro {
   /*font-style: italic;*/
   font-weight: bold;
 }
 h1 {
-  padding: 50px;
-  color: #FFF;
-  text-shadow: 8px 8px 8px black;
-  font-size: 30px;
+  padding: 70px 0 0 0;
+  color: #472f2c;
+  text-shadow: 5px 4px 10px black;
+  font-size: 50px;
   /*border-bottom: 1px solid #5D6063;*/
 }
 
 body {
-  background-image: url('homebackground.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: sans-serif;
+  /*background-image: url('homebackground.jpg');*/
+  background-color: #dbb260;
+  font-family: Georgia;
 
 }
-.button{             /* Change this */
-  display: block;             /* Add this */
-  text-decoration: none;      /* Add this */
-  font-weight: bold;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-  border: 5px solid #4f2a1e;    /* Dark gray */
-  border-radius: 5px;
-  width: 200px;
+.button{
+  display: block;
+  width: 100px;
   margin: 10px auto;
-  text-shadow: 2px 2px 2px black;
+  background-repeat: no-repeat;
+  height: 100px;
 }
-.b1:link,                 /* Change this */
-.b1:visited {             /* Change this */
-  color: #FFF;
-  background-color: #5995DA;    /* Blue */
+.btns {
+  padding: 20px;
+  width : 150 px;
+  font-weight: bold;
+}
+.b1:link,
+.b1:visited,
+.b1:active,
+.b1:visited:active{
+  background-image: url('brush.png');
 }
 .b1:hover,
 .b1:visited:hover {
-  color: #FFF;
-  background-color: #76AEED;  /* Light blue */
+  background-image: url('brush2.png');
 }
-.b1:active,
-.b1:visited:active {
-  color: #FFF;
-  background-color: #5995DA;  /* Blue */
-}
-.b2:link,                 /* Change this */
-.b2:visited {             /* Change this */
-  color: #FFF;
-  background-color: #f54290;    /* Blue */
+
+.b2:link,
+.b2:visited,
+.b2:active,
+.b2:visited:active {
+  background-image: url('game.png');
+
 }
 .b2:hover,
 .b2:visited:hover {
-  color: #FFF;
-  background-color: #f589b8;  /* Light blue */
+    background-image: url('game2.png');
 }
-.b2:active,
-.b2:visited:active {
-  color: #FFF;
-  background-color: #f54290;  /* Blue */
-}
-.b3:link,                 /* Change this */
-.b3:visited {             /* Change this */
-  color: #FFF;
-  background-color: #2db593;    /* Blue */
+
+.b3:link,
+.b3:visited,
+.b3:active,
+.b3:visited:active {
+  background-image: url('disk.png');
+
 }
 .b3:hover,
 .b3:visited:hover {
-  color: #FFF;
-  background-color: #96ebd5;  /* Light blue */
+  background-image: url('disk2.png');
 }
-.b3:active,
-.b3:visited:active {
-  color: #FFF;
-  background-color: #2db593;  /* Blue */
-}
-.b4:link,                 /* Change this */
-.b4:visited {             /* Change this */
-  color: #FFF;
-  background-color: #e0cd3a;    /* Blue */
+
+.b4:link,
+.b4:visited,
+.b4:active,
+.b4:visited:active
+ {
+
+  background-image: url('instrument.png');
+
 }
 .b4:hover,
 .b4:visited:hover {
-  color: #FFF;
-  background-color:#f0e48b;  /* Light blue */
+  background-image: url('instrument2.png');
 }
-.b4:active,
-.b4:visited:active {
-  color: #FFF;
-  background-color: #e0cd3a;  /* Blue */
-}
-.page {
 
+.page {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -122,37 +106,116 @@ body {
 
 }
 .content{
-  background-color: #f2cfa5;
-  box-shadow: 5px 10px 25px #000000;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   margin-top: 1px;
 }
 .header{
-  background-color: #73442e;
+
+  background-image: url('pencils2.jpg');
   box-shadow: 0 10px 25px #000000;
   position:relative;
   z-index:2;
+  padding: 50px 0 20px 0;
+  border: 1px solid black;
+
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #472f2c;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#decfb1;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #98a343;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+#arts{
+  background-image: url('arts/artback.jpg');
+}
+
+#tech{
+  background-image: url('technical/techback.jpg');
+}
+#digital{
+  background-image: url('digital/digback.jpg');
+}
+#misc{
+  background-image: url('misc/musicback.jpg');
+}
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+  .btns{
+    width: 100%
+  }
   .button{
     font-size: 13px;
   }
-  .h1{
-    font-size: 15px;
+  h1{
+    font-size: 35px;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-  .b1, .b2, .b3, .b4{
-    width: 30%
+  .btns{
+    width: 50%
   }
   .button{
     font-size: 15px;
   }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
 }
 
 /* Desktop Styles */
@@ -162,7 +225,8 @@ body {
     width: 960px;
     margin: 0 auto;
   }
-  .b1, .b2, .b3, .b4{
-    width: 40%
+  .btns {
+    width: 25%
   }
+
 }

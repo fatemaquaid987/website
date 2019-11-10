@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Fatema's Creations_Artsy Adventures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='style.css'/>
+    <link rel='stylesheet' href='style2.css'/>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href='index.html' >Home</a>
+      <a href='arts/arts.html'class="active">Artsy Adventures</a>
+      <a href='technical/tech.html'>Techno Therapy</a>
+      <a href='digital/digital.html'>Digital Dreams</a>
+      <a href='misc/misc.html'>Miscellaneous Memos</a>
+      <a href ='about.html'>About </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class='header'>
+      <h1>About</h1>
+
+    </div>
+    <div class= 'page'>
+
+
+        <img id = headshot src='fatema.jpg' alt= 'Image of Fatema'/>
+        <p id = "desc">Fatema is a senior pursuing her Computer Science degree at the University of Pittsburgh.
+          She will be graduating this December and is actively looking for full-time opportunities.
+          You may contact her at <strong>fatemaquaid987@gmail.com</strong> </p>
+
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

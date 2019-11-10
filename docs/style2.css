@@ -1,0 +1,112 @@
+body {
+  /*background-image: url('homebackground.jpg');*/
+  background-color: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.image_sec{
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  margin: 0 auto;
+  background-color:#dbb260;
+  box-shadow: 5px 10px 25px #000000;
+  border: 2px solid #4f2a1e;
+  color: #000000;
+}
+strong{
+  color: red;
+  font-weight: bold;
+}
+.desc{
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.header{
+  background-color: #decfb1;
+  background-image: none;
+  box-shadow: 0 10px 25px #000000;
+  position:relative;
+  z-index:2;
+  color:#FFF;
+  padding: 1px 0 10px 0;
+}
+
+#horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#wedding, #crappybirds, #music{
+  width: 95%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#audio{
+  width: 70%;
+}
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  h1{
+    font-size: 30px;
+  }
+  .image_sec{
+    width: 100%
+  }
+  #horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  #wedding, #crappybirds, #music{
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .image_sec{
+    width: 50%
+  }
+  h1{
+    font-size: 35px;
+  }
+  #horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{
+    width: auto;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  #wedding, #crappybirds, #music{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  .image_sec{
+    width: 50%
+  }
+  h1{
+    font-size: 40px;
+  }
+}

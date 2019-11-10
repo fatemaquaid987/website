@@ -3,11 +3,24 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Fatema's Creations_Artsy Adventures</title>
-    <link rel='stylesheet' href='style2.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../style.css'/>
+    <link rel='stylesheet' href='../style2.css'/>
   </head>
   <body id = 'arts'>
+    <div class="topnav" id="myTopnav">
+      <a href='../index.html' >Home</a>
+      <a href='arts.html'class="active">Artsy Adventures</a>
+      <a href='../technical/tech.html'>Techno Therapy</a>
+      <a href='../digital/digital.html'>Digital Dreams</a>
+      <a href='../misc/misc.html'>Miscellaneous Memos</a>
+      <a href ='../about.html'>About </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class='header'>
-       <h1>Artsy Adventures</h1>
+      <h1>Artsy Adventures</h1>
       <p>Fatema loves painting and sketching. She loves to put her imagination
         onto paper. Sometimes she gives them colors while other times she likes
         them monochromatic.This page displays a few of Fatema's master pieces. </p>
@@ -30,6 +43,16 @@
       </div>
 
     </div>
-    <a class = 'button b1' href='../index.html'> Back </a>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>

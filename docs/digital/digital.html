@@ -3,9 +3,22 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Fatema's Creations_Digital Dreams</title>
-    <link rel='stylesheet' href='../arts/style2.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='../style.css'/>
+    <link rel='stylesheet' href='../style2.css'/>
   </head>
   <body id = 'digital'>
+    <div class="topnav" id="myTopnav">
+      <a href='../index.html' >Home</a>
+      <a href='../arts/arts.html'>Artsy Adventures</a>
+      <a href='../technical/tech.html'>Techno Therapy</a>
+      <a href='digital.html'class="active">Digital Dreams</a>
+      <a href='../misc/misc.html'>Miscellaneous Memos</a>
+      <a href ='../about.html'>About </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class='header'>
     <h1>Digital Dreams</h1>
     <p>Besides her passion for painting and sketching, Fatema loves creating digital media.
@@ -24,7 +37,8 @@
       <div class = 'image_sec'>
         <audio
         controls
-        src="A_Haunted_Halt.mp3">
+        src="A_Haunted_Halt.mp3"
+        id = 'audio'>
             Your browser does not support the
             <code>audio</code> element.
         </audio>
@@ -32,6 +46,16 @@
       </div>
 
     </div>
-    <a class = 'button b1' href='../index.html'> Back </a>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
