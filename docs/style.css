@@ -37,8 +37,7 @@ h1 {
 body {
   background-image: url('purple_back3.png');
   background-repeat: no-repeat;
-  /*background-size: cover;*/
-   background-color: #31213e;
+  background-color: #31213e;
   font-family: Georgia;
 
 }
@@ -117,9 +116,7 @@ body {
   margin-top: 1px;
 }
 .header{
-
   padding: 50px 0 20px 0;
-
 }
 
 .topnav {

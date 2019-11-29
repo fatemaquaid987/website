@@ -1,5 +1,4 @@
 body {
-  /*background-image: url('homebackground.jpg');*/
   background-color: #31213e;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,7 +34,7 @@ strong{
 .header{
   background-color: #31213e;
   background-image: none;
-  box-shadow: 0 10px 25px #000000;
+  box-shadow: 0 10px 25px #19181a;
   position:relative;
   z-index:2;
   color:#FFF;

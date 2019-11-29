@@ -12,3 +12,5 @@ Credits
 9. [paint brush png](http://www.pngall.com/paint-brush-png) on [PNG ALL](www.pngall.com) is licensed under CC-4.0 BY-NC
 10. CSS icon library by [cdjns.com](https://cdnjs.com/) as fair use
 11. Script for responsive top navigation bar by [w3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) as fair use
+12. Font1: [Solvay](https://fonts.google.com/specimen/Solway) by Mariya V. Pigoulevskaya, Google Fonts licensed under open Font License.
+13. Font2: [Tomorrow](https://fonts.google.com/specimen/Tomorrow) by Tony de Marco and Monica Rizzolli, Google Fonts licensed under open Font License. 
