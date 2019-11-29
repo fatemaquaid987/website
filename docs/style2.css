@@ -1,19 +1,26 @@
 body {
   /*background-image: url('homebackground.jpg');*/
-  background-color: none;
+  background-color: #31213e;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-image: none;
+}
+h1{
+  padding: 30px 0 10px 0;;
 }
 
+#headshot{
+  border: 5px solid #28142b;
+}
 
 .image_sec{
   padding: 20px 10px 10px 10px;
   text-align: center;
   margin: 0 auto;
-  background-color:#dbb260;
+  background-color:#31213e;
   box-shadow: 5px 10px 25px #000000;
-  border: 2px solid #4f2a1e;
+  border: 2px solid #28142b;
   color: #000000;
 }
 strong{
@@ -26,7 +33,7 @@ strong{
   margin-bottom: 20px;
 }
 .header{
-  background-color: #decfb1;
+  background-color: #31213e;
   background-image: none;
   box-shadow: 0 10px 25px #000000;
   position:relative;

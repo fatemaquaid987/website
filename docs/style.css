@@ -1,37 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Solway|Tomorrow:400,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Solway', serif;
 }
 
 #hello {
-  color:#FFF;
+  color:#eb839b;
   margin-bottom: 0;
   font-style: italic;
 }
 h1, p {
   text-align: center;
-  color: #5D6063;
+  color: #95d4e6;
 }
 p {
    padding: 20px 0 0 10px;  /* Top  Right  Bottom  Left */
-   color: #472f2c;
+   color: #95d4e6;
 }
 #intro {
   /*font-style: italic;*/
   font-weight: bold;
 }
 h1 {
-  padding: 70px 0 0 0;
-  color: #472f2c;
+  padding: 60px 0 10px 0;
+  color: #e39d05;
   text-shadow: 5px 4px 10px black;
   font-size: 50px;
+  font-family: 'Tomorrow', sans-serif;
+  font-weight: bold;
   /*border-bottom: 1px solid #5D6063;*/
 }
 
 body {
-  /*background-image: url('homebackground.jpg');*/
-  background-color: #dbb260;
+  background-image: url('purple_back3.png');
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+   background-color: #31213e;
   font-family: Georgia;
 
 }
@@ -111,24 +118,19 @@ body {
 }
 .header{
 
-  background-image: url('pencils2.jpg');
-  box-shadow: 0 10px 25px #000000;
-  position:relative;
-  z-index:2;
   padding: 50px 0 20px 0;
-  border: 1px solid black;
 
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #472f2c;
+  background-color: #28142b;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -136,13 +138,13 @@ body {
 }
 
 .topnav a:hover {
-  background-color:#decfb1;
-  color: black;
+  background-color:#31213e;
+  color: #e39d05;
 }
 
 .topnav a.active {
-  background-color: #98a343;
-  color: white;
+  background-color: #e39d05;
+  color: #cf4263;
 }
 
 .topnav .icon {
