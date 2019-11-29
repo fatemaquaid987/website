@@ -1,7 +1,6 @@
 Credits
 --------
-
-1. [pencils](https://unsplash.com/photos/l3N9Q27zULw) by [Plush Design Studio](https://unsplash.com/@plushdesignstudio) on [Unsplash](https://unsplash.com) is licensed under CC-0.
+1. [purple-background-colorful-triangles](https://www.freepik.com/free-vector/purple-background-colorful-triangles_1095549.htm) by [Freepik](https://www.freepik.com/) is licensed under CC-Attribution.
 2. [paint brushes on brown surface](https://unsplash.com/photos/qTo6uBszXNc) by (https://unsplash.com/@miracleday) on [Unsplash](https://unsplash.com) is licensed under CC-0.
 3. [multicolored text](https://unsplash.com/photos/YlVjrBkfXt8) by [Roozbeh Eslami](https://unsplash.com/@roozbeheslami) on [Unsplash](https://unsplash.com) is licensed under CC-0.
 4. [closeup photo of turned on digital midi controller](https://unsplash.com/photos/jUwvjOmCTWc) by [Luca Bravo](https://unsplash.com/@lucabravo) on [Unsplash](https://unsplash.com) is licensed under CC-0.
