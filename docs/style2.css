@@ -10,7 +10,11 @@ h1{
 }
 
 #headshot{
-  border: 5px solid #28142b;
+  border: 15px solid #28142b;
+  box-shadow: 0 10px 25px #19181a;
+  position:relative;
+  margin: 10px;
+  /*padding: 20px 0 0 0;*/
 }
 
 .image_sec{
@@ -26,19 +30,24 @@ strong{
   color: red;
   font-weight: bold;
 }
-.desc{
+#desc{
   font-size: 20px;
   padding: 20px;
   margin-bottom: 20px;
+  color: #31213e;
+  font-weight: bold;
 }
-.header{
+.header, .header_about{
   background-color: #31213e;
   background-image: none;
   box-shadow: 0 10px 25px #19181a;
   position:relative;
   z-index:2;
-  color:#FFF;
   padding: 1px 0 10px 0;
+  margin: 0, 5px, 0, 0;
+}
+.header_about{
+  padding: 5px
 }
 
 #horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{

@@ -160,6 +160,10 @@ body {
 #misc{
   background-image: url('misc/musicback.jpg');
 }
+#about{
+  background-image: url('wood.jpg');
+
+}
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   .btns{
