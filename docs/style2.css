@@ -123,6 +123,7 @@ td p{
 .project_name{
   color:#eb839b;
   /*#ffb8d9;*/
+  text-align: left;
   font-weight: bold;
   font-size: 25px;
 }
@@ -204,7 +205,7 @@ td p{
   h1{
     font-size: 35px;
   }
-  
+
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
