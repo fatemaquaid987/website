@@ -152,13 +152,13 @@ body {
 }
 
 #tech{
-  background-image: url('technical/techback.jpg');
+  background-image: url('technical/tech.jpg');
 }
 #digital{
-  background-image: url('digital/digback.jpg');
+  background-image: url('digital/back.jpg');
 }
 #misc{
-  background-image: url('misc/musicback.jpg');
+  background-image: url('misc/back.jpg');
 }
 #about{
   background-image: url('wood.jpg');

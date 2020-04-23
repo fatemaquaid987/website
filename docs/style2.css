@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-image: none;
 }
+
 h1{
   padding: 30px 0 10px 0;;
 }
@@ -14,11 +15,16 @@ h1{
   box-shadow: 0 10px 25px #19181a;
   position:relative;
   margin: 0 auto;
-  
-  
   /*padding: 20px 0 0 0;*/
 }
 
+
+.pink_row{
+  background-color:#28142b;
+}
+.blue_row{
+  background-color: #31213e;
+}
 
 .image_sec{
   padding: 20px 10px 10px 10px;
@@ -32,7 +38,7 @@ h1{
 .no_sec{
   padding: 20px 10px 10px 10px;
   margin: 0 auto;
-  
+
 }
 strong{
   color: red;
@@ -58,93 +64,178 @@ strong{
   padding: 5px
 }
 
-#horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{
-  width: auto;
-  height: 400px;
+
+#codher, #autocapture, #crappybirds,#stacks, #spiral, #maze,
+#lighting, #budget, #chat, #database,#CBIR,
+#bowling, #battle, #catering, #headshot{
+  width: 400px;
+  height: auto;
   margin: 0 auto;
 }
-
-#wedding, #crappybirds, #music{
-  width: 95%;
-  height: 400px;
+#horse, #mother, #hair,#saveearth,#haunted,#fall, #grisaille,#abstract, #music,
+#wedding,#calligraphy, #vases , #promise, #potrait, #taylor, #value, #still{
+  width: 500px;
+  height: auto;
   margin: 0 auto;
 }
-
+#haunted{
+  position:relative;
+  top:0;
+  left:0;
+}
 #audio{
-  width: 70%;
+  position: relative;
+  width: 400px;
+  left: 40px;
+  bottom: 40px;
+  height: 20px;
 }
 
+table{
+  border-spacing:0 10px;
+}
+tr{
+  box-shadow: 0px 5px 25px 3px #000000;
+}
+td {
+  /*border: 2px solid #eb839b;*/
+  padding: 10px;
+  color: #31213e;
+  max-width: 520px;
+}
+.website{
+  padding: inherit;
+  color:#eb839b;
+}
+.website:hover, .website:visited:hover{
+  color:#ad076b;
+}
+.website:visited{
+  color:#2362ba;
+}
 
+td p{
+  /*color: #31213e;*/
+  text-align: justify;
+  font-size: 15px;
+}
+
+.project_name{
+  color:#eb839b;
+  /*#ffb8d9;*/
+  font-weight: bold;
+  font-size: 25px;
+}
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+  table{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    text-align: center;
+  }
   h1{
     font-size: 30px;
   }
-  .image_sec{
-    width: 100%
-  }
-  #horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{
-    width: auto;
-    height: 300px;
+  #crappybirds, #stacks, #spiral, #maze,
+  #lighting, #budget, #chat, #database,#CBIR,
+  #bowling, #battle, #catering,
+  #codher, #autocapture, #headshot{
+    width: 150px;
+    height: auto;
     margin: 0 auto;
   }
 
-  #wedding, #crappybirds, #music{
-    width: 95%;
-    height: 300px;
+  #horse, #mother, #hair,#saveearth,#haunted,#fall, #grisaille,#abstract, #wedding,
+  #calligraphy, #vases , #promise, #potrait, #taylor, #value, #still, #haunted #music{
+    width: 200px;
+    height: auto;
     margin: 0 auto;
   }
   #headshot{
     border: 5px solid #332401;
     width: auto;
     height: 100px;
-    margin: 0 auto;
-    
   }
-  
 
+  td{
+    padding: 5px;
+    max-width: 210px;
+  }
+  td p{
+    font-size: 10px;
+  }
+  .project_name{
+    font-size: 12px;
+  }
+  #audio{
+    position: relative;
+    width: 100px;
+    left: 3px;
+    bottom: 35px;
+
+
+  }
 
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 501px) and (max-width: 960px) {
 
-  .image_sec{
-    width: 50%
-  }
   h1{
     font-size: 35px;
   }
-  #horse, #mother, #hair, #saveearth, #codher, #autocapture, #headshot{
-    width: auto;
-    height: 250px;
+
+  table{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    text-align: center;
+  }
+
+  td{
+     max-width: 320px;
+  }
+  #crappybirds, #stacks, #spiral, #maze,
+  #lighting, #budget, #chat, #database,#CBIR,
+  #bowling, #battle, #catering,
+  #codher, #autocapture, #headshot{
+    width: 250px;
+    height: auto;
     margin: 0 auto;
   }
 
-  #wedding, #crappybirds, #music{
-    width: 90%;
-    height: 250px;
+  #fall, #grisaille,#abstract, #wedding,  #horse, #mother, #hair,#saveearth, #music,
+  #calligraphy, #vases , #promise, #potrait, #taylor, #value, #still, #haunted{
+    width: 300px;
+    height: auto;
     margin: 0 auto;
   }
   #headshot{
     border: 5px solid #332401;
     width: auto;
     height: 300px;
-    margin: 0 auto;  
-    
+    margin: 0 auto;
+
   }
- 
+  .project_name{
+    font-size: 20px;
+  }
+  #audio{
+    position: relative;
+    width: 200px;
+    left: 8px;
+    bottom: 40px;
+
+  }
 
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
 
-  .image_sec{
-    width: 50%
-  }
   h1{
     font-size: 40px;
   }
