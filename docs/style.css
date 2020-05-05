@@ -106,6 +106,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  /*background-color: red;*/
 }
 .header, .content{
   margin: 0 auto;
@@ -161,7 +162,7 @@ body {
   background-image: url('misc/back2.jpg');
 }
 #about{
-  background-image: url('wood.jpg');
+  background-image: url('about_back.jpg');
 
 }
 /* Mobile Styles */
@@ -227,6 +228,7 @@ body {
   .page {
     width: 960px;
     margin: 0 auto;
+
   }
   .btns {
     width: 25%

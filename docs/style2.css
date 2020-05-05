@@ -11,18 +11,108 @@ h1{
 }
 
 #headshot{
-  border: 10px solid #332401;
-  box-shadow: 0 10px 25px #19181a;
+  /*border: 10px solid #332401;
+  box-shadow: 0 10px 25px #19181a;*/
   position:relative;
   margin: 0 auto;
+  top:0;
+  left:0;
+  width: 100%;
   /*padding: 20px 0 0 0;*/
 }
 
+.about_sec, #info_div{
+  /*background-color:#28142b;
+  background-image: url('note.png');
+  background-repeat: no-repeat;
+  width:inherit;*/
+  color: #31213e;
+  text-align: left;
+  width: 100%;
+  margin: 2px;
+  padding: 5px;
+  box-shadow: 0px 5px 25px 3px #000000;
+  margin-top: 10px;
 
-.pink_row{
+}
+#skill_sec{
+  display: flex;
+  flex-wrap: wrap;
+}
+.about_sec p{
+  text-align: left;
+  margin-top: :0;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+.photo_pushpin{
+
+  width:10%;
+}
+.skill{
+  margin-top: 5px;
+  width:25%;
+  text-align: center;
+}
+.skill p{
+  text-align: center;
+}
+
+
+.pushpin{
+  width:5%;
+}
+
+#photo_div{
+  width:45%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right:10px;
+  padding: 5px;
+}
+ #info_div{
+   width:53%;
+   padding: 5px;
+   margin-top: 10px;
+   padding: 5px;
+   text-align: left;
+   box-shadow: 0px 5px 25px 3px #000000;
+   font-size: 15px;
+   text-align: center;
+}
+#info_div p{
+  text-align: left;
+}
+.pin{
+  text-align: center;
+}
+.about_sec h3{
+  color:#eb839b;
+  font-style: italic;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin: 0;
+  font-size: 15px;
+
+}
+.about_sec h2{
+  color:white;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.about_sec .project_name{
+  text-align: center;
+}
+ul{
+  list-style-type: disc;
+  color: #95d4e6;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.pink_row, .dark{
   background-color:#28142b;
 }
-.blue_row{
+.blue_row, .light{
   background-color: #31213e;
 }
 
@@ -41,7 +131,7 @@ h1{
 
 }
 strong{
-  color: red;
+  color: #dbcd9e;
   font-weight: bold;
 }
 #desc{
@@ -67,7 +157,7 @@ strong{
 
 #codher, #autocapture, #crappybirds,#stacks, #spiral, #maze,
 #lighting, #budget, #chat, #database,#CBIR,
-#bowling, #battle, #catering, #headshot{
+#bowling, #battle, #catering{
   width: 400px;
   height: auto;
   margin: 0 auto;
@@ -100,7 +190,6 @@ tr{
 td {
   /*border: 2px solid #eb839b;*/
   padding: 10px;
-  color: #31213e;
   max-width: 520px;
 }
 .website{
@@ -127,6 +216,7 @@ td p{
   font-weight: bold;
   font-size: 25px;
 }
+
 
 
 /* Mobile Styles */
@@ -160,7 +250,7 @@ td p{
   #crappybirds, #stacks, #spiral, #maze,
   #lighting, #budget, #chat, #database,#CBIR,
   #bowling, #battle, #catering,
-  #codher, #autocapture, #headshot{
+  #codher, #autocapture{
     width: 150px;
     height: auto;
     margin: 0 auto;
@@ -172,11 +262,7 @@ td p{
     height: auto;
     margin: 0 auto;
   }
-  #headshot{
-    border: 5px solid #332401;
-    width: auto;
-    height: 100px;
-  }
+
 
   td{
     padding: 5px;
@@ -188,13 +274,29 @@ td p{
   .project_name{
     font-size: 12px;
   }
+  .about_sec .project_name{
+    font-size: 25px;
+  }
+  .skill{
+    width: 100%;
+  }
   #audio{
     position: relative;
     width: 100px;
     left: 3px;
     bottom: 35px;
-
-
+  }
+  #info_div, #photo_div{
+    width: 100%;
+  }
+  .photo_pushpin{
+    width: 5%;
+  }
+  #headshot{
+    width: 50%;
+  }
+  #photo_div{
+    text-align: center;
   }
 
 }
@@ -236,7 +338,7 @@ td p{
   #crappybirds, #stacks, #spiral, #maze,
   #lighting, #budget, #chat, #database,#CBIR,
   #bowling, #battle, #catering,
-  #codher, #autocapture, #headshot{
+  #codher, #autocapture{
     width: 250px;
     height: auto;
     margin: 0 auto;
@@ -248,15 +350,12 @@ td p{
     height: auto;
     margin: 0 auto;
   }
-  #headshot{
-    border: 5px solid #332401;
-    width: auto;
-    height: 300px;
-    margin: 0 auto;
 
-  }
   .project_name{
     font-size: 20px;
+  }
+  .skill{
+    width: 50%;
   }
   #audio{
     position: relative;
@@ -265,7 +364,18 @@ td p{
     bottom: 40px;
 
   }
-
+  #info_div, #photo_div{
+    width: 100%;
+  }
+  .photo_pushpin{
+    width: 5%;
+  }
+  #headshot{
+    width: 50%;
+  }
+  #photo_div{
+    text-align: center;
+  }
 }
 
 /* Desktop Styles */
