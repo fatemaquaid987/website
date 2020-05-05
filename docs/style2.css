@@ -64,24 +64,26 @@ h1{
 }
 
 #photo_div{
-  width:45%;
-  padding: 5px;
+  width:53%;
   margin-top: 10px;
-  margin-right:10px;
-  padding: 5px;
+  margin-bottom: 0;
 }
  #info_div{
-   width:53%;
-   padding: 5px;
+   width:46%;
    margin-top: 10px;
-   padding: 5px;
+   padding: 10px;
    text-align: left;
    box-shadow: 0px 5px 25px 3px #000000;
    font-size: 15px;
    text-align: center;
+
 }
 #info_div p{
-  text-align: left;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+
 }
 .pin{
   text-align: center;
