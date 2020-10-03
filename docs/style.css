@@ -37,6 +37,7 @@ h1 {
 body {
   background-image: url('purple_back3.png');
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #31213e;
   font-family: Georgia;
 
